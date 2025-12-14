@@ -27,10 +27,7 @@ Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ult
 
 ![Photo of Single Real Blade]({{ "/assets/images/SingleBlade.png" | relative_url }}){: .inline-image-l}
 
-![Photo of Blades in the Holder]({{ "/assets/images/BladesInHolderBack.png" | relative_url }}){: .inline-image-r}
-
-![Photo Testing Set up Front]({{ "/assets/images/FrontTesting.png" | relative_url }}){: .inline-image-l}
-
+![Photo of Blades in the Holder]({{ "/assets/images/BladesInHolderBack.png" | relative_url }}){: .inline-image-l style="width: 500px"}
 
 ![Power vs RPM with Resisence]({{ "/assets/images/ResGraph_power_rpm.jpg" | relative_url }}){: .inline-image-r}
 
