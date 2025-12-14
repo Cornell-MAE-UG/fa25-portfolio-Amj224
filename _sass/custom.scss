@@ -201,3 +201,13 @@ footer {
 }
 
 
+.centered-image {
+  display: block;
+  margin: 0 auto 20px auto;
+}
+ 
+.page-content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
