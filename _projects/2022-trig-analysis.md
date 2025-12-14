@@ -1,9 +1,8 @@
 ---
 layout: project
-title: Analysis of Functions
-description: Class project with Graphs
-technologies: [MATLAB, python]
-image: /assets/images/function-graph.png
+title: MAE 4300 Engineers in Society
+description: Final Portfolio
+image: /assets/images/Boeing737Max.jpg
 ---
 
 

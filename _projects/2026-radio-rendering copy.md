@@ -9,6 +9,15 @@ image: /assets/images/radio-machine-cad.jpg
     src="https://docs.google.com/document/d/e/2PACX-1vTvw4qg7bMQG_s1bnBtjleSoya99mFU_xAzV1zHQZ_92VLrrhuW35Rjgp0P1IbhUxGkSfnDLHuntKn-/pub?embedded=true">
   </iframe>
 
+![Photo of Flat CAD profile]({{ "/assets/images/CADBladeProfileNoBackground_flat.png" | relative_url }}){: .inline-image-c style="width: 400px"}
+
+  This is how I solved the problem:
+
+```python
+    some code = 10;
+    plot();
+```
+
 For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
 
 Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.

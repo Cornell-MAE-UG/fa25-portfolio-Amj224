@@ -5,7 +5,7 @@ description: Wind Turbine Blade Optimization
 technologies: [Autodesk Fusion, MATLAB]
 image: /assets/images/ProjectTitle.png
 ---
-![Photo of old radio]({{ "/assets/images/CADBladeProfileNoBackground_flat.png" | relative_url }}){: .inline-image-c style="width: 400px"}
+
 
 For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
 
@@ -27,12 +27,12 @@ Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ult
 
 ![Photo of Single Real Blade]({{ "/assets/images/SingleBlade.png" | relative_url }}){: .inline-image-l}
 
-![Photo of Blades in the Holder]({{ "/assets/images/BladesInHolderBack.png" | relative_url }}){: .inline-image-l}
+![Photo of Blades in the Holder]({{ "/assets/images/BladesInHolderBack.png" | relative_url }}){: .inline-image-r}
 
 ![Photo Testing Set up Front]({{ "/assets/images/FrontTesting.png" | relative_url }}){: .inline-image-l}
 
 
-![Power vs RPM with Resisence]({{ "/assets/images/ResGraph_power_rpm.jpg" | relative_url }}){: .inline-image-l}
+![Power vs RPM with Resisence]({{ "/assets/images/ResGraph_power_rpm.jpg" | relative_url }}){: .inline-image-r}
 
 ![Power vs Torque Graph]({{ "/assets/images/PvsT_res.png" | relative_url }}){: .inline-image-l}
 
