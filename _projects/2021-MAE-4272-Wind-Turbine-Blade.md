@@ -11,7 +11,7 @@ For a class, we were asked to CAD a complex object. This design was...Lorem ipsu
 
 Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
 
-![Shaded rendering of earlier version]({{ "/assets/images/design_spanTorque.png" | relative_url }}){: .inline-image-r style="width: 400px"}
+![Shaded rendering of earlier version]({{ "/assets/images/design_spanTorque.png" | relative_url }}){: .inline-image-r}
 
 Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
 

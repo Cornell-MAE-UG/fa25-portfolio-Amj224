@@ -11,6 +11,8 @@ image: /assets/images/radio-machine-cad.jpg
 
 ![Photo of Flat CAD profile]({{ "/assets/images/CADBladeProfileNoBackground_flat.png" | relative_url }}){: .inline-image-c style="width: 400px"}
 
+![Photo of Angled CAD]({{ "/assets/images/CADProfileAngled.png" | relative_url }}){: .inline-image-l}
+
   This is how I solved the problem:
 
 ```python
