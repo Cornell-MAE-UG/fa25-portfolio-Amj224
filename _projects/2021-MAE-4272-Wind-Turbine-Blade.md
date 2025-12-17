@@ -9,6 +9,7 @@ image: /assets/images/ProjectTitle.png
 We set out to design, print, and test a 6-inch wind turbine blade that could extract as much power as possible while meeting the lab’s geometry, structure, and printability limits. From the outset, we framed the operating environment with an energy-weighted wind speed (because power scales with (U^3)), computing (a weighted energy velocty (U_w) =5.04m/s) from a Weibull model so the geometry would be tuned to the winds that matter energetically, not just the average.
 
 Within this context, the blade had to respect R ≤ 6 in, axial projection ≤ 2 in, 6–60 mm chord, and we chose to use a NACA 4412 geometry selection; structurally, flexural stress had to remain < 44 MPa, and manufacturing required a continuous surface printable at 0.1 mm resolution. These constraints shaped every downstream choice.
+
 Our aerodynamic model was Blade Element Momentum Theory (BEMT) with practical corrections: quasi-2D station aerodynamics, Prandtl/Glauert tip-loss models, and airfoil polars for NACA 4412 at Re = 50k, 100k, 200k, interpolated spanwise so each station “saw” the right lift/drag ratio. The material was treated as isotropic, and the inflow steady and uniform—assumptions that are standard for early-stage rotor design and appropriate for our test rig.
 
 ![Shaded rendering of earlier version]({{ "/assets/images/Chord-R.png" | relative_url }}){: .inline-image-r}
@@ -17,7 +18,10 @@ Our aerodynamic model was Blade Element Momentum Theory (BEMT) with practical co
 
 ![Shaded rendering of earlier version]({{ "/assets/images/design_spanTorque.png" | relative_url }}){: .inline-image-r}
 
-We began with a clear geometric hypothesis: keep a relatively larger chord farther outboard because local tangential velocity scales with radius and torque authority grows near the tip; set pitch near the ~8.5° lift-rich, stall-safe region of NACA 4412. Initial parameters were TSRdesign = 3, R=6 in, chord taper ~12%R→4%R, and uniform 8.5° twist.
+We began with a clear geometric hypothesis: keep a relatively larger chord farther outboard because local tangential velocity scales with radius and torque authority grows near the tip; set pitch near the ~8.5° lift-rich, stall-safe region of NACA 4412. 
+
+Initial parameters were TSRdesign = 3, R=6 in, chord taper ~12%R→4%R, and uniform 8.5° twist.
+
 The BEMT workflow proceeded in three moves. A diagnostic first pass revealed unstable induction behavior at the root/tip (inner ~25% span), a common artifact where local TSR is small. We then solved 30 spanwise stations to convergence for axial/tangential induction, which produced accurate but noisy chord/twist at the ends. Finally, we smoothed the tip via linear extrapolation of the last stable points and smoothed the root via quadratic extrapolation from upstream stability—yielding a manufacturable surface without sacrificing the BEMT intent. We also verified that the axial projection stayed ≤ 2 in after smoothing.
 
 At the design point the model predicted, at ~812 RPM and TSR≈3, about (T~0.0117N·m) and (P~W). A simple flapwise bending check with a rectangular-section approximation kept stress well below 44 MPa, satisfying the structural constraint with margin.
