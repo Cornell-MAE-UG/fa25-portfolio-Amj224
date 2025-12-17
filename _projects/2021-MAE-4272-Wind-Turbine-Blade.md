@@ -11,9 +11,9 @@ We set out to design, print, and test a 6-inch wind turbine blade that could ext
 Within this context, the blade had to respect R ≤ 6 in, axial projection ≤ 2 in, 6–60 mm chord, and we chose to use a NACA 4412 geometry selection; structurally, flexural stress had to remain < 44 MPa, and manufacturing required a continuous surface printable at 0.1 mm resolution. These constraints shaped every downstream choice.
 Our aerodynamic model was Blade Element Momentum Theory (BEMT) with practical corrections: quasi-2D station aerodynamics, Prandtl/Glauert tip-loss models, and airfoil polars for NACA 4412 at Re = 50k, 100k, 200k, interpolated spanwise so each station “saw” the right lift/drag ratio. The material was treated as isotropic, and the inflow steady and uniform—assumptions that are standard for early-stage rotor design and appropriate for our test rig.
 
-![Shaded rendering of earlier version]({{ "/assets/images/Chord-R.png" | relative_url }}){: .inline-image-r style="width: 350px"}
+![Shaded rendering of earlier version]({{ "/assets/images/Chord-R.png" | relative_url }}){: .inline-image-r style="width: 300px"}
 
-![Shaded rendering of earlier version]({{ "/assets/images/Twist-Rad.png" | relative_url }}){: .inline-image-l style="width: 350px"}
+![Shaded rendering of earlier version]({{ "/assets/images/Twist-Rad.png" | relative_url }}){: .inline-image-l style="width: 300px"}
 
 ![Shaded rendering of earlier version]({{ "/assets/images/design_spanTorque.png" | relative_url }}){: .inline-image-r}
 
@@ -28,9 +28,9 @@ At the design point the model predicted, at ~812 RPM and TSR≈3, about (T~0.011
 
 Testing translated theretical calculations into real world data. We locked in setpoints ((R=6 in), (A= pi*R^2), (rho=1.225kg/m^3)), mapped fan frequency→wind speed, and enforced a safe envelope for brake voltage and RPM. For each condition we recorded U, RPM, brake current, and derived torque, power, tip-speed ratio (lambda=omega*R/U), and power coefficient (C_P=P/(0.5*rho*AU^3)). We then built the (P-U), (tau-RPM), and (C_P-lambda) curves for comparison to predictions.
 
-![Power vs RPM with Resisence]({{ "/assets/images/ResGraph_power_rpm.jpg" | relative_url }}){: .inline-image-r} {style="width: 350px"}
+![Power vs RPM with Resisence]({{ "/assets/images/ResGraph_power_rpm.jpg" | relative_url }}){: .inline-image-r} {style="width: 300px"}
 
-![Power vs Torque Graph]({{ "/assets/images/PvsT_res.png" | relative_url }}){: .inline-image-r} {style="width: 350px"}
+![Power vs Torque Graph]({{ "/assets/images/PvsT_res.png" | relative_url }}){: .inline-image-r} {max-width: 300px}
 
 Two findings set the tone of the results. First, peak measured power hit 1.29 W at ~5.56 m/s, and power continued to rise across our test range—no clear peak was captured, implying headroom at higher winds. Second, the rotor ran near (lambda~6)—twice our design TSR—without structural issues. A resonance region around 2100–2500 RPM produced temporary power dips but did not threaten integrity.
 
