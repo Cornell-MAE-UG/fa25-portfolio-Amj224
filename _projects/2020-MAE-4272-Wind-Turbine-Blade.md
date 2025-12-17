@@ -10,7 +10,7 @@ We set out to design, print, and test a 6-inch horizontal-axis wind-turbine blad
 
 Our aerodynamic model was Blade Element Momentum Theory (BEMT) with practical corrections: quasi-2D station aerodynamics, Prandtl/Glauert tip-loss effects, and spanwise interpolation of NACA 4412 polars at Re = 50k, 100k, 200k so each station “saw” an appropriate lift/drag ratio. We assumed an isotropic material and steady, uniform inflow—appropriate for early rotor design and our bench setup. Geometrically, we hypothesized that keeping more chord outboard would leverage higher tangential velocity and tip torque authority, and we set pitch near ~8.5° (lift-rich, stall-safe for 4412). The initial design used TSR design=3, R=6 in, chord taper ~12%R → 4%R, and uniform 8.5° twist. Our BEMT workflow proceeded in three steps: (1) a diagnostic pass (revealed unstable induction near root/tip where local TSR is small), (2) a 30-station converged solve for axial/tangential induction (accurate but noisy at the ends), and (3) root/tip smoothing (quadratic near the root, linear near the tip) to yield a manufacturable surface while keeping axial projection ≤2 in. At the design point, the model predicted ~812 RPM at TSR ≈3 with T≈0.0117 N\cdotpm and P≈1.0 W, and a flapwise bending check kept stress comfortably below 44 MPa.
 
-![Shaded rendering of earlier version]({{ "/assets/images/chord+twist_g.png" | relative_url }}){: .inline-image-c style="width: 500px"}
+![Shaded rendering of earlier version]({{ "/assets/images/chord+twist_g.png" | relative_url }}){: .inline-image-c style="width: 600px"}
 
 
 ![Photo of Angled CAD]({{ "/assets/images/CADProfileAngled.png" | relative_url }}){: .inline-image-l}
