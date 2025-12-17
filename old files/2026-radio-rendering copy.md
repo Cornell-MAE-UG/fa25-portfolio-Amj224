@@ -9,7 +9,7 @@ image: /assets/images/radio-machine-cad.jpg
     src="https://docs.google.com/document/d/e/2PACX-1vTvw4qg7bMQG_s1bnBtjleSoya99mFU_xAzV1zHQZ_92VLrrhuW35Rjgp0P1IbhUxGkSfnDLHuntKn-/pub?embedded=true">
   </iframe>
 
-![Photo of Flat CAD profile]({{ "/assets/images/CADBladeProfileNoBackground_flat.png" | relative_url }}){: .inline-image-c style="width: 400px"}
+![Photo of Flat CAD profile]({{ "/assets/images/CADBladeProfileNoBackground_flat.png" | relative_url }}){: .inline-image-c style="width: 350px"}
 
 ![Photo of Angled CAD]({{ "/assets/images/CADProfileAngled.png" | relative_url }}){: .inline-image-l}
 
