@@ -40,27 +40,7 @@ Looking ahead, we’ll re-target the design to(lambda~6), rebalance chord and tw
 
 Bottom line: We delivered a printable, constraint-compliant blade that exceeded 1 W and validated an iterative BEMT→fabrication→test loop. The data say the next iteration should embrace the turbine’s natural operating point at higher TSR and tune the structure to be as smooth dynamically as it is aerodynamically.
 
-![Shaded rendering of earlier version]({{ "/assets/images/design_spanTorque.png" | relative_url }}){: .inline-image-r}
 
-text
-
-text
-
-text
-
-![Photo of Angled CAD]({{ "/assets/images/CADProfileAngled.png" | relative_url }}){: .inline-image-l}
-
-text
-
-text
-
-![Photo of Single Real Blade]({{ "/assets/images/SingleBlade.png" | relative_url }}){: .inline-image-l}
-
-![Photo of Blades in the Holder]({{ "/assets/images/BladesInHolderBack.png" | relative_url }}){: .inline-image-l}
-
-![Power vs RPM with Resisence]({{ "/assets/images/ResGraph_power_rpm.jpg" | relative_url }}){: .inline-image-r}
-
-![Power vs Torque Graph]({{ "/assets/images/PvsT_res.png" | relative_url }}){: .inline-image-l}
 
 <div style="clear: both;"></div>
 
