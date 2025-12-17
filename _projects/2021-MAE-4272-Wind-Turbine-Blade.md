@@ -2,7 +2,7 @@
 layout: project
 title: MAE 4272 Wind Turbine Blade
 description: Wind Turbine Blade Optimization 
-technologies: [Autodesk Fusion, MATLAB]
+technologies: [Autodesk Fusion, MATLAB, Python]
 image: /assets/images/ProjectTitle.png
 ---
 
