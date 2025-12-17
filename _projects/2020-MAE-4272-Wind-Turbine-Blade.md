@@ -24,7 +24,7 @@ Testing translated theory into data. We fixed setpoints (R=6 in), (A=πR^2), (ρ
 
 Outcome & next steps. We delivered a printable, constraint-compliant blade that met strength requirements and exceeded 1 W in test. Going forward, we will retarget the geometry to λ≈6, rebalance tip-side chord/twist for the steeper inflow, and shift the structural modes (thickness/taper/hub interface) so resonance sits outside the operating band. 
 
-My contribution: I worked with the group in the design phase and focused on executed the root/tip smoothing to meet the axial-projection/manufacturability limits. I also did the entire CAD model as well as built the post-processing for τ, P, λ, and CP including the comparison plots with a focus on the resisance graphs.
+My contribution: I worked with the group in the design phase and focused on executed the root/tip smoothing to meet the axial-projection/manufacturability limits. I also did the CAD model as well as built the post-processing for τ, P, λ, and CP including the comparison plots with a focus on the resisance graphs.
 
 
 
