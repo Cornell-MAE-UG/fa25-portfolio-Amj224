@@ -29,8 +29,8 @@ Testing translated the paper design into measured performance. We locked in setp
 ![Power vs Torque Graph]({{ "/assets/images/PvsT_res.png" | relative_url }}){: .inline-image-r}
 
 
-
-
+ 
+ 
 
 Two findings set the tone of the results. First, peak measured power hit 1.29 W at ~5.56 m/s, and power continued to rise across our test range—no clear peak was captured, implying headroom at higher winds. Second, the rotor ran near (lambda~6)—twice our design TSR—without structural issues. A resonance region around 2100–2500 RPM produced temporary power dips but did not threaten integrity.
 Why did the rig outperform the 1 W prediction? The answer is embedded in BEMT physics: with higher operating RPM and (lambda) than assumed, and with healthy stall margin preserved by our pitch choice and smoothing, the machine can ride up the rising limb of the power curve before profile losses dominate. In short, our outer-span geometry and tip-friendly smoothing remained effective at the higher inflow angles of (lambda ~6). That interpretation matches the data and our original hypothesis about tip authority.
